@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta chartset= "utf-8">
+        <link rel= "stylesheet" type= "text/css" href= "styles.css">
+        <title>Ejercicios</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100|Raleway:100" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header id="home">
+            <div class="shape">
+                <h1>FRONT-END &nbsp; </h1>
+            </div>
+        </header>
+        <nav>
+            <div id="menu">
+                <p class="menu"><a href="#home">Home</a></p>
+                <p class="menu"><a href="#palindromo">Palindromo</a></p>
+                <p class="menu"><a href="#piramide">Pirámide</a></p>
+                <p class="menu"><a href="#nivel">Nivel de Jugador</a></p>
+            </div>
+        </nav>
+
+        <section>
+            <article style="text-align:center">
+                <h2>HOME</h2>
+                <br> <br> <br>
+                <h4>E J E R C I C I O S</h4>
+            </article>
+
+            <article id="palindromo" class="border">
+            <h2>PALINDROMO</h2>
+            <br> <br> <br> <br> <br> <br>
+            <div>
+                <button onclick="palindromo()">Palabra / Frase 1</button>
+                <button onclick="palindromo3()">Palabra / Frase 3</button>
+                <button onclick="palindromo2()">Palabra / Frase 2</button>
+            </div>
+        </article>
+
+        <article id="piramide" class="border">
+            <h2>PIRÁMIDE</h2>
+            <br> <br>
+            <P>¿De cuántos niveles quieres que sea la pirámide? </P>
+            <br> <br> <br> <br> <br> <br>
+            <button onclick="Piramide()">Niveles</button>
+        </article>
+
+        <article id="nivel" class="border">
+            <h2>NIVEL DE JUGADOR</h2>
+            <br> <br>
+            <P>¿En qué nivel de Videojuegos estás?</P>
+            <br> <br> <br> <br> <br> <br>
+            <button onclick="nivel()">Nivel de Jugador</button>
+        </article>
+    </section>
+
+    <script src="scipts.js"></script>
+    </body>
+
+</html>
